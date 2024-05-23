@@ -1,0 +1,13 @@
+body{
+    font-family: 'Roboto', sans-serif;;
+}
+
+
+img{
+    width: 100px;
+}
+
+.datosBasicos{
+    border: 2px solid gray;
+    border-radius: 5px;
+}
