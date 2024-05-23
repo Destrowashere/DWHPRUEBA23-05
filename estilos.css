@@ -1,13 +1,59 @@
 body{
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: #D2D9D8;
+    transition: .2s;
+}
+
+body:hover{
+    background-color: #000000;
+    transition: .2s;
+}
+
+.izq{
+    background-color: solid #aba6a6;
+    
 }
 
 
-img{
-    width: 100px;
+.nombre{
+       transition: .1s;
+       border-color: #BCDA87;
+       color: white;
+}
+
+.nombre:hover{
+    transition: .1s;
+    border: 2px solid #408153   ;
+    color: #ffffff;
+    border-radius: 5px;
+    background-color: black;
+}
+
+h1, img{
+    display: inline-block;
+    margin-left: 25%;
+    margin-right: 25%;  
+    color: white;
 }
 
 .datosBasicos{
     border: 2px solid gray;
     border-radius: 5px;
+    background-color: #d6cfcf;
+    margin-left: 25%;
+    margin-right: 25%;
+    transition: .2s;
+}
+
+.datosBasicos:hover{
+    background-color: #965757;
+    transition: .2s;
+}
+h3:hover{
+    color: #D6D0D0;
+}
+
+h2:hover{
+    color: #BCDA87;
 }
